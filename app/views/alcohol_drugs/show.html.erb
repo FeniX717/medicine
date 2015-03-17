@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Alcohol addicted:</strong>
+  <%= @alcohol_drug.alcohol_addicted %>
+</p>
+
+<p>
+  <strong>Drugs adicted:</strong>
+  <%= @alcohol_drug.drugs_adicted %>
+</p>
+
+<p>
+  <strong>Alcohol type:</strong>
+  <%= @alcohol_drug.alcohol_type %>
+</p>
+
+<p>
+  <strong>Drugs type:</strong>
+  <%= @alcohol_drug.drugs_type %>
+</p>
+
+<p>
+  <strong>Alcohol period:</strong>
+  <%= @alcohol_drug.alcohol_period %>
+</p>
+
+<p>
+  <strong>Drugs period:</strong>
+  <%= @alcohol_drug.drugs_period %>
+</p>
+
+<p>
+  <strong>Previous treatment:</strong>
+  <%= @alcohol_drug.previous_treatment %>
+</p>
+
+<%= link_to 'Edit', edit_alcohol_drug_path(@alcohol_drug) %> |
+<%= link_to 'Back', alcohol_drugs_path %>

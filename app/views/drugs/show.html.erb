@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Addicted:</strong>
+  <%= @drug.addicted %>
+</p>
+
+<p>
+  <strong>Drug type:</strong>
+  <%= @drug.drug_type %>
+</p>
+
+<p>
+  <strong>Drugs period:</strong>
+  <%= @drug.drugs_period %>
+</p>
+
+<p>
+  <strong>Previous treatment:</strong>
+  <%= @drug.previous_treatment %>
+</p>
+
+<%= link_to 'Edit', edit_drug_path(@drug) %> |
+<%= link_to 'Back', drugs_path %>

@@ -1,0 +1,45 @@
+<%= form_for(@alcohol_drug) do |f| %>
+  <% if @alcohol_drug.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@alcohol_drug.errors.count, "error") %> prohibited this alcohol_drug from being saved:</h2>
+
+      <ul>
+      <% @alcohol_drug.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :alcohol_addicted %><br>
+    <%= f.number_field :alcohol_addicted %>
+  </div>
+  <div class="field">
+    <%= f.label :drugs_adicted %><br>
+    <%= f.number_field :drugs_adicted %>
+  </div>
+  <div class="field">
+    <%= f.label :alcohol_type %><br>
+    <%= f.text_field :alcohol_type %>
+  </div>
+  <div class="field">
+    <%= f.label :drugs_type %><br>
+    <%= f.text_field :drugs_type %>
+  </div>
+  <div class="field">
+    <%= f.label :alcohol_period %><br>
+    <%= f.number_field :alcohol_period %>
+  </div>
+  <div class="field">
+    <%= f.label :drugs_period %><br>
+    <%= f.number_field :drugs_period %>
+  </div>
+  <div class="field">
+    <%= f.label :previous_treatment %><br>
+    <%= f.text_area :previous_treatment %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

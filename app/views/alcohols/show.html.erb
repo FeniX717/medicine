@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Addicted:</strong>
+  <%= @alcohol.addicted %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @alcohol.type %>
+</p>
+
+<p>
+  <strong>Drinking period:</strong>
+  <%= @alcohol.drinking_period %>
+</p>
+
+<p>
+  <strong>Previous treatment:</strong>
+  <%= @alcohol.previous_treatment %>
+</p>
+
+<%= link_to 'Edit', edit_alcohol_path(@alcohol) %> |
+<%= link_to 'Back', alcohols_path %>

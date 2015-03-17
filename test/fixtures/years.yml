@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  addicted: 1
+  alcohol: MyString
+  type: 
+  drinking: MyString
+  period: 1
+  previous: MyString
+  treatment: MyText
+
+two:
+  addicted: 1
+  alcohol: MyString
+  type: 
+  drinking: MyString
+  period: 1
+  previous: MyString
+  treatment: MyText

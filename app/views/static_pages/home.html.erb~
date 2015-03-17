@@ -1,0 +1,15 @@
+<div class="center hero-unit">
+  <h1>Medicine</h1>
+  <h2>
+    Select the type of dependence:
+    <ul>
+ 		<li><%= link_to "Alcohol adicted",   new_alcohol_path %></li>
+      	<li><%= link_to "Drugs adicted", new_drug_path %></li>
+      	<li><%= link_to "Alcohol & Drugs adicted", new_alcohol_drug_path %></li>
+    </ul>
+  </h2>
+</div>
+  <% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+
+

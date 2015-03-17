@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  alcohol_addicted: 1
+  drugs_adicted: 1
+  alcohol_type: MyString
+  drugs_type: MyString
+  alcohol_period: 1
+  drugs_period: 1
+  previous_treatment: MyText
+
+two:
+  alcohol_addicted: 1
+  drugs_adicted: 1
+  alcohol_type: MyString
+  drugs_type: MyString
+  alcohol_period: 1
+  drugs_period: 1
+  previous_treatment: MyText

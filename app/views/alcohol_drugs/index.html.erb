@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Alcohol Drugs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Alcohol addicted</th>
+      <th>Drugs adicted</th>
+      <th>Alcohol type</th>
+      <th>Drugs type</th>
+      <th>Alcohol period</th>
+      <th>Drugs period</th>
+      <th>Previous treatment</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @alcohol_drugs.each do |alcohol_drug| %>
+      <tr>
+        <td><%= alcohol_drug.alcohol_addicted %></td>
+        <td><%= alcohol_drug.drugs_adicted %></td>
+        <td><%= alcohol_drug.alcohol_type %></td>
+        <td><%= alcohol_drug.drugs_type %></td>
+        <td><%= alcohol_drug.alcohol_period %></td>
+        <td><%= alcohol_drug.drugs_period %></td>
+        <td><%= alcohol_drug.previous_treatment %></td>
+        <td><%= link_to 'Show', alcohol_drug %></td>
+        <td><%= link_to 'Edit', edit_alcohol_drug_path(alcohol_drug) %></td>
+        <td><%= link_to 'Destroy', alcohol_drug, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Alcohol drug', new_alcohol_drug_path %>
