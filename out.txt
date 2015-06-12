@@ -1,0 +1,166 @@
+=> Booting WEBrick
+=> Rails 4.2.0 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-17 18:39:50 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (33.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1432ms (Views: 1411.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 320ms (Views: 319.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alcohol_drugs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/alcohols-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/drugs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/custom-7b28dff0702a60e158543b41056ea812.css?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/persons-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/scaffolds-37a71ffc9d70cb68ff7ceb8008f8eb0f.css?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/application-7a8f4b52ca51ca4282c10977dc687541.css?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/alcohol_s-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:54 +0300
+
+
+Started GET "/assets/drugs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/assets/persons-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/assets/alcohols-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/assets/alcohol_drugs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/assets/years-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/assets/application-41e62b5df9038d8c25a140a77a5781af.js?body=1" for 127.0.0.1 at 2015-03-17 18:39:55 +0300
+
+
+Started GET "/users/login" for 127.0.0.1 at 2015-03-17 18:41:36 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (17.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (177.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 621ms (Views: 476.1ms | ActiveRecord: 118.5ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2015-03-17 18:41:44 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 374ms (Views: 372.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-17 18:41:45 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 362ms (Views: 361.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drugs/new" for 127.0.0.1 at 2015-03-17 18:41:49 +0300
+Processing by DrugsController#new as HTML
+  Rendered drugs/_form.html.erb (16.8ms)
+  Rendered drugs/new.html.erb within layouts/application (27.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 379ms (Views: 357.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/alcohol_drugs/new" for 127.0.0.1 at 2015-03-17 18:41:53 +0300
+Processing by AlcoholDrugsController#new as HTML
+Redirected to http://localhost:3000/users/sign_up
+Filter chain halted as :auth_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-03-17 18:41:53 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 324ms (Views: 322.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alcohol_drugs/new" for 127.0.0.1 at 2015-03-17 18:42:12 +0300
+Processing by AlcoholDrugsController#new as HTML
+Redirected to http://localhost:3000/users/sign_up
+Filter chain halted as :auth_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-03-17 18:42:12 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 370ms (Views: 368.8ms | ActiveRecord: 0.0ms)
+Exiting
